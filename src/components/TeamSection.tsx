@@ -8,24 +8,36 @@ const team = [
     role: "CEO & Founder",
     linkedin: "#",
     initials: "AM",
+    intro: "Visionary leader with 15+ years in tech startups.",
+    techStack: "Strategy, Product, Leadership",
+    education: "MBA, Stanford University",
   },
   {
     name: "Sara Chen",
     role: "CTO",
     linkedin: "#",
     initials: "SC",
+    intro: "Architecting scalable systems that power millions.",
+    techStack: "Go, Kubernetes, AWS, Terraform",
+    education: "MS Computer Science, MIT",
   },
   {
     name: "James Wilson",
     role: "Lead Developer",
     linkedin: "#",
     initials: "JW",
+    intro: "Full-stack craftsman obsessed with clean code.",
+    techStack: "React, TypeScript, Node.js, PostgreSQL",
+    education: "BS Software Engineering, Georgia Tech",
   },
   {
     name: "Priya Sharma",
     role: "UI/UX Designer",
     linkedin: "#",
     initials: "PS",
+    intro: "Designing intuitive experiences users love.",
+    techStack: "Figma, Framer, Tailwind, CSS",
+    education: "BFA Interaction Design, RISD",
   },
 ];
 
@@ -63,7 +75,12 @@ const TeamSection = () => {
               <h3 className="font-display font-semibold text-foreground text-lg">
                 {member.name}
               </h3>
-              <p className="text-muted-foreground text-sm mb-3">{member.role}</p>
+              <p className="text-muted-foreground text-sm mb-2">{member.role}</p>
+              <p className="text-foreground/80 text-xs italic mb-3">{member.intro}</p>
+              <div className="text-left space-y-1 mb-3">
+                <p className="text-muted-foreground text-xs"><span className="font-semibold text-foreground/70">Tech:</span> {member.techStack}</p>
+                <p className="text-muted-foreground text-xs"><span className="font-semibold text-foreground/70">Edu:</span> {member.education}</p>
+              </div>
               <a
                 href={member.linkedin}
                 target="_blank"
