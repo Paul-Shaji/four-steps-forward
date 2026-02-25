@@ -28,7 +28,7 @@ const ServicesSection = () => {
   const inView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="services" className="py-24 lg:py-32 bg-secondary/50" ref={ref}>
+    <section id="services" className="py-24 lg:py-32 hero-gradient" ref={ref}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -37,7 +37,7 @@ const ServicesSection = () => {
           className="text-center mb-16"
         >
           <span className="text-primary text-sm font-semibold uppercase tracking-wider">Our expertise</span>
-          <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mt-3">
+          <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-white mt-3">
             What We Do
           </h2>
         </motion.div>
@@ -49,12 +49,12 @@ const ServicesSection = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: 0.2 + i * 0.15 }}
-              className="group glass-card p-8 hover:shadow-glow hover:scale-[1.02] transition-all duration-300 cursor-pointer"
+              className="group glass-card p-8 hero-gradient hover:shadow-glow hover:scale-[1.02] transition-all duration-300 cursor-pointer"
             >
               <div className="w-12 h-12 rounded-xl gradient-bg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                 <service.icon className="text-primary-foreground" size={22} />
               </div>
-              <h3 className="font-display font-semibold text-foreground text-xl mb-3">
+              <h3 className="font-display font-semibold text-white  text-xl mb-3">
                 {service.title}
               </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">

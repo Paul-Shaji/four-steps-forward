@@ -107,11 +107,11 @@ const ContactSection = () => {
             <div className="space-y-4">
               <div className="flex items-center gap-3 text-muted-foreground">
                 <Mail className="text-primary" size={20} />
-                <span className="text-sm">hello@4steps.dev</span>
+                <span className="text-sm">paulshaji.dev@gmail.com</span>
               </div>
               <div className="flex items-center gap-3 text-muted-foreground">
                 <Phone className="text-primary" size={20} />
-                <span className="text-sm">+1 (555) 123-4567</span>
+                <span className="text-sm">+91 8078517622</span>
               </div>
             </div>
 
@@ -119,7 +119,7 @@ const ContactSection = () => {
               {[Linkedin, Twitter, Github].map((Icon, i) => (
                 <a
                   key={i}
-                  href="#"
+                  href="https://www.linkedin.com/in/paul-shaji/"
                   className="w-10 h-10 rounded-xl bg-secondary flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all duration-200"
                 >
                   <Icon size={18} />
