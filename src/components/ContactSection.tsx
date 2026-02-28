@@ -108,10 +108,14 @@ const ContactSection = () => {
               <div className="flex items-center gap-3 text-muted-foreground">
                 <Mail className="text-primary" size={20} />
                 <span className="text-sm">paulshaji.dev@gmail.com</span>
+                <Mail className="text-primary" size={20} />
+                <span className="text-sm">sivasankar.ml12@gmail.com</span>
               </div>
               <div className="flex items-center gap-3 text-muted-foreground">
                 <Phone className="text-primary" size={20} />
                 <span className="text-sm">+91 8078517622</span>
+                <Phone className="text-primary" size={20} />
+                <span className="text-sm">+91 9567182583</span>
               </div>
             </div>
 
