@@ -5,6 +5,7 @@ import abel from "../assets/abel.jpeg";
 import paul from "../assets/paul.jpeg";
 import vishnu from "../assets/vishnu_kg.jpeg";
 import siva from "../assets/sivasankar.jpeg";
+import amal from "../assets/amal.jpg"
 
 const team = [
   {
@@ -14,7 +15,7 @@ const team = [
     initials: "AM",
     image: siva,
     intro: "Visionary leader with 2+ years in tech startups.",
-    techStack: "Strategy, Product, Leadership",
+    techStack: "Strategy, Product, Leadership,ErpNEXT,React,",
     education: "BTech in Computer Science",
   },
   {
@@ -24,11 +25,11 @@ const team = [
     linkedin: "https://www.linkedin.com/in/paul-shaji/",
     initials: "",
     intro: "Architecting scalable systems that power millions.",
-    techStack: "nest,frappe, Kubernetes, AWS, Terraform",
+    techStack: "React,Node,Frappe, Kubernetes, AWS,Docker",
     education: "BTech in Computer Science",
   },
   {
-    name: "Able Shibu",
+    name: "Abel Shibu",
     role: "Lead Developer",
     linkedin: "https://www.linkedin.com/in/abel-shibu-b91072236",
     initials: "JW",
@@ -46,6 +47,16 @@ const team = [
     intro: "Designing intuitive experiences users love.",
     techStack: "Figma, Framer, Tailwind, CSS",
     education: "BTech in Computer Science",
+  },
+  {
+    name: "Amal Francis Saji",
+    role: "Full Stack Developer",
+    linkedin: "https://www.linkedin.com/in/amal-francis-saji-821a9628b/",
+    initials: "PS",
+    image: amal,
+    intro: "Full-Stack Enthusiast with 2+ year experience.",
+    techStack: "Django,Python,AI,Cyber Security,Flask,JavaScript",
+    education: "Master's in Computer Applications",
   },
 ];
 
