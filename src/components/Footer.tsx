@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div>
             <a href="#" className="font-display text-xl font-bold gradient-text">
-              4 Steps
+              loopcode
             </a>
             <p className="text-hero-muted text-sm mt-2">
               Transforming businesses, one step at a time.
@@ -49,7 +49,7 @@ const Footer = () => {
 
         <div className="border-t border-hero-foreground/10 mt-8 pt-8 text-center">
           <p className="text-hero-muted text-xs">
-            © {new Date().getFullYear()} 4 Steps. All rights reserved.
+            © {new Date().getFullYear()} loopcode. All rights reserved.
           </p>
         </div>
       </div>

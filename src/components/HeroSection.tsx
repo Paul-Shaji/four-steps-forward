@@ -43,7 +43,7 @@ const HeroSection = () => {
             className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-hero-foreground leading-tight mb-6"
           >
             Transforming Businesses{" "}
-            <span className="gradient-text">in 4 Steps</span>
+            <span className="gradient-text">in loopcode</span>
           </motion.h1>
 
           <motion.p

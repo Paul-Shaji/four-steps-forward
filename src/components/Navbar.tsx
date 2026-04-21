@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import logoSrc from "../assets/loopcode_logo.png";
 
 const navLinks = [
   { label: "Mission", href: "#mission" },
@@ -34,8 +35,8 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
-          <a href="#" className="font-display text-xl font-bold gradient-text">
-            4 Steps
+          <a href="#" className="flex items-center gap-2">
+            <img src={logoSrc} alt="loopcode" className="h-36 w-auto" />
           </a>
 
           {/* Desktop */}
