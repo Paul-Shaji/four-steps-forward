@@ -10,7 +10,7 @@ import amal from "../assets/amal.jpg"
 const team = [
   {
     name: "Sivasankar M",
-    role: "CEO & Founder",
+    role: "CEO & co-founder",
     linkedin: "https://www.linkedin.com/in/sivasankar22",
     initials: "AM",
     image: siva,
@@ -20,7 +20,7 @@ const team = [
   },
   {
     name: "Paul Shaji",
-    role: "CTO",
+    role: "CTO & co-founder",
     image: paul,
     linkedin: "https://www.linkedin.com/in/paul-shaji/",
     initials: "",
